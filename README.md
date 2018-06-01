@@ -7,4 +7,4 @@ The example has four stages:
 3. *Kafka*
 4. *KrigingResult*
 
-This Repo mainly concerns *RawData* which is stored as Parquet, interfaces between stages: ParquetToFrostServer(1.<pre>*</pre>), FrostServerToKafka(2.<pre>*</pre>), KafkaToKafka(3.<pre>*</pre>) which utilizes KafkaStreaming to concatenate any number of Kafka Cluster and KrigingClient(4.<pre>*</pre>).
+This Repo mainly concerns *RawData* which is stored as Parquet, interfaces between stages: ParquetToFrostServer(1.\*), FrostServerToKafka(2.\*), KafkaToKafka(3.\*) which utilizes KafkaStreaming to concatenate any number of Kafka Cluster and KrigingClient(4.\*).
