@@ -14,13 +14,13 @@ There are four stages in the *KrigingEample*:
 
 This Repo mainly concerns:
 * *RawData* which is stored as Parquet,
-* a helper class for configurations and some common functions,
+* a helper class(Helper.py) for configurations and some commonly used functions,
 
 and implements interfaces between stages:
-* ParquetToFrostServer(1.\*.ipynb) loads parquet from local disk and posts observations via REST to the FROST-Server.
+* ParquetToxxx(1.\*.ipynb) loads parquet from local disk and posts observations via REST to the FROST-Server/Kafka Cluster.
 * FrostServerToKafka(2.\*.ipynb) obtains SensorThings objects(Things, DataStreams, Observations and so on) over MQTT and publishes them to the Kafka Cluster. Topics are organized the same entities SensorThings API and the messages are filled with corresponding informations in JSON.
 * KafkaToKafka(3.\*.ipynb) utilizes KafkaStreaming to concatenate any number of Kafka Cluster. 
-* KrigingClient(4.\*.ipynb) applies Kriging algorithm on the data obtained from Kafka in parallel.
+* KrigingClient(4.\*.ipynb) demostrates how to retrive data from Kafka Cluster and apply Kriging algorithm on these data in parallel.
 
 ## Examples:
 
