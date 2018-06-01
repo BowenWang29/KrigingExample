@@ -2,9 +2,9 @@
 
 A demo of using Frost-Server and Kafka to generate air temperature sensor data streaming, which is then processed with Kriging algorithm.
 The example has four stages:
-1. *RawData*
-2. *Frost-Server*
-3. *Kafka*
-4. *KrigingResult*
+1. *RawData*: Air temperature data from Weather Underground
+2. *Frost-Server*: An implementation of SensorThings API
+3. *Kafka*: A message streaming system
+4. *KrigingResult*: Visuallisation of Kriging Algorithum
 
-This Repo mainly concerns *RawData* which is stored as Parquet, interfaces between stages: ParquetToFrostServer(1.\*), FrostServerToKafka(2.\*), KafkaToKafka(3.\*) which utilizes KafkaStreaming to concatenate any number of Kafka Cluster and KrigingClient(4.\*).
+This Repo mainly concerns *RawData* which is stored as Parquet, and implements interfaces between stages: ParquetToFrostServer(1.\*.ipynb), FrostServerToKafka(2.\*.ipynb), KafkaToKafka(3.\*.ipynb) which utilizes KafkaStreaming to concatenate any number of Kafka Cluster and KrigingClient(4.\*.ipynb).
