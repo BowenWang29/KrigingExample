@@ -25,5 +25,10 @@ and implements interfaces between stages:
 ## Examples:
 
 1. Parquet -> Kafka -> Kriging & Visualization
-
+  - 1.3. ParquetToKafka.ipynb
+  - 4.1 KrigingClient.ipynb
+  
 2. Parquet -> SensorThings -> Kafka -> Kriging & Visualization
+  - 1.2. ParquetToFrost
+  - 2.1. FrostServerToKafka.ipynb
+  - 4.2 KrigingClientFromKafkaFromSensorThings.ipynb
