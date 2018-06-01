@@ -15,9 +15,11 @@ import matplotlib as mpl
 import pandas as pd
 
 class Helper:
-    Kafkas = {"dev":"smartaqnet-dev.teco.edu","dev01":"smartaqnet-dev01.teco.edu"}
+    Kafkas = {"dev":"http://smartaqnet-dev.teco.edu","dev01":"http://smartaqnet-dev01.teco.edu"}
     
-    Frosts = {"dev":"smartaqnet-dev.teco.edu","dev01":"smartaqnet-dev01.teco.edu"}
+    Frosts = {"dev":"http://smartaqnet-dev.teco.edu","dev01":"http://smartaqnet-dev01.teco.edu"}
+    
+    Inst_URL = "edu.teco.wang"
     
     DataHome = "data/"
     DeutschlandJSON="deutschlandGeoJSON/"
