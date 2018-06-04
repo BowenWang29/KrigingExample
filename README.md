@@ -2,7 +2,7 @@
 
 A demo of using Frost-Server and Kafka to generate air temperature sensor data streaming, which is then processed with Kriging algorithm. The goal is to demostrate a geodata processing use case on the infrastructure introduced in [SmartAirQuality Network Project](http://smartaq.net/).
 
-![Architecture used in KrigingExample](./KrigingExample.jpg?raw=true "KrigingExample") 
+![Architecture used in KrigingExample](./KrigingExample.jpg| width=100 "KrigingExample") 
 
 
 ## Four stages
