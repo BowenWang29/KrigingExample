@@ -15,7 +15,7 @@ import matplotlib as mpl
 import pandas as pd
 
 class Helper:
-    Kafkas = {"dev":"http://smartaqnet-dev.teco.edu","dev01":"http://smartaqnet-dev01.teco.edu"}
+    Kafkas = {"dev":"http://smartaqnet-dev.teco.edu","dev01":"http://smartaqnet-dev01.teco.edu","swarm":"http://swarm-node00.teco.edu"}
     
     Frosts = {"dev":"http://smartaqnet-dev.teco.edu","dev01":"http://smartaqnet-dev01.teco.edu"}
     
