@@ -36,6 +36,7 @@ and implements interfaces between stages:
    - 2.1. FrostServerToKafka.ipynb
    - 4.2 KrigingClientFromKafkaFromSensorThings.ipynb
 3. Parquet -> SensorThings -> Kafka
+
                         DWD on SDIL -> Kriging & visualization
    - 1.2. ParquetToFrost
    - 2.1. FrostServerToKafka.ipynb
