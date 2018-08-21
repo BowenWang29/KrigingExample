@@ -29,15 +29,13 @@ and implements interfaces between stages:
 
 1. Parquet -> Kafka -> Kriging & Visualization
    - 1.3. ParquetToKafka.ipynb
-   - 4.1 KrigingClient.ipynb
+   - 4.1. KrigingClient.ipynb
   
 2. Parquet -> SensorThings -> Kafka -> Kriging & Visualization
    - 1.2. ParquetToFrost
    - 2.1. FrostServerToKafka.ipynb
-   - 4.2 KrigingClientFromKafkaFromSensorThings.ipynb
-3. Parquet -> SensorThings -> Kafka
-
-                        DWD on SDIL -> Kriging & visualization
+   - 4.2. KrigingClientFromKafkaFromSensorThings.ipynb
+3. WG as Parquet -> SensorThings -> Kafka + DWD on SDIL -> Kriging & visualization
    - 1.2. ParquetToFrost
    - 2.1. FrostServerToKafka.ipynb
-   - 5.0 Kriging Use Case.ipynb
+   - 5.0. Kriging Use Case.ipynb
